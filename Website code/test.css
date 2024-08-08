@@ -53,15 +53,16 @@ li a {
     display: none;
     position: absolute;
     font-size: 30px;
-    background-color: rgb(0, 0, 0);
+    background-color: red;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     min-width: 160px;
     z-index: 1;
   }
   
   .dropdown-content li a {
-    padding: 12px 16px;
+    padding: 5px 16px 5px 16px;
     color: white;
+    font-size: 15px;
     text-decoration: none;
     display: block;
   }
