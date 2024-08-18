@@ -10,6 +10,7 @@
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     background: #ffffff;
+    font-style: underline;
 }
 
 input,
