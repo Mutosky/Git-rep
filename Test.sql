@@ -49,3 +49,20 @@ SELECT *
 FROM customers
 ORDER BY points DESC
 LIMIT 3
+
+
+
+CREATE DATABASE notes_app;
+USE notes_app;
+
+CREATE TABLE notes {
+      id integer PRIMARY KEY AUTO_INCREAMENT,
+      title VARCHAR(255) NOT NULL,
+      contents TEXT NOT NULL,
+      created TIMESTAMP NOT NULL DEFAULT NOW()
+};
+
+INSERT INTO notes (title, contents)
+VALUES
+('My fisrt note', 'I had a lot of struggles trying to set up this sql'),
+('My secong note', 'Finally i did it');
