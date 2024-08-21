@@ -1,0 +1,6 @@
+USE ;
+
+
+SELECT *
+FROM  Tables;
+
