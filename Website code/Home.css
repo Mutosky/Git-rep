@@ -15,16 +15,26 @@ body {
 }
 .Navigation-bar {
     background: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
 }
 .Div-navigation {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.flex-end {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-between;
+}
+.flex-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo a {
     font-size: 35px;
@@ -39,9 +49,36 @@ li a {
     color: white;
     font-size: 18px;
     font-weight: 650;
-    margin-right: 25px;
+    margin-right: 20px;
 }
-button {
+.dropdown-menu .dropdown-toggle{
+    position: relative;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    background-color: red;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content li a {
+    padding: 5px 16px 5px 16px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-menu:hover .dropdown-content {
+    display: block;
+  }
+
+  button {
     background-color: black;
     margin-left: 10px;
     border-radius: 10px;
@@ -53,6 +90,16 @@ button a {
     font-weight: bold;
     font-size: 15px;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: px;
+    height: 40%;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
 
 .circle {
     font-size: 30px;
@@ -60,15 +107,6 @@ button a {
     padding-top: 12px;
     color: white;
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100vh;
-    gap: 4px;
-    padding: 20px;
-}
-
 .Mock-up, .video-container {
     color: white;
     padding: 20px;
@@ -79,7 +117,21 @@ button a {
     margin-bottom: 20px;
 }
 
-video {
+.video {
+    padding-top: 10px;
     width: 100%;
-    height: auto;
+    height: 100%;
+}
+.H1-Hoodie {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+font-size: 50px;
+}
+.Mock-up p  {
+ font-size: 20px;
+ text-transform: capitalize;
+ padding-top: 30px;
+ font-family: sans-serif;
 }

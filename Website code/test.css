@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 body {
     background-color: rgb(0, 0, 0);
     padding: 0;
@@ -13,37 +14,52 @@ body {
     box-sizing: border-box;
     margin: 0;
 }
+
 .Navigation-bar {
     background: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
 }
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .Div-navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .logo a {
     font-size: 35px;
     font-weight: 650;
     color: white;
 }
+
 li {
     list-style-type: none;
     display: inline-block;
 }
 
 li a {
+    color: white;
     font-size: 18px;
     font-weight: 650;
-    margin-right: 20px;
-    display: block;
-    color: white;
-    text-decoration: none;
-}  
+    margin-right: 25px;
+}
+
 .dropdown-menu .dropdown-toggle{
     position: relative;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -78,17 +94,29 @@ button {
     padding: 10px;
     width: 90px;
 }
+
 button a {
     color: white;
     font-weight: bold;
     font-size: 15px;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
-    gap: 20px;
-    padding: 20px;
+    column-gap: px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+.circle {
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 12px;
+    color: white;
 }
 
 .Mock-up, .video-container {
@@ -104,4 +132,17 @@ button a {
 video {
     width: 100%;
     height: auto;
+}
+
+.H1-Hoodie {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+font-size: 50px;
+}
+
+.Mock-up p  {
+font-size: 30px;
+ padding-top: 30px;
 }
