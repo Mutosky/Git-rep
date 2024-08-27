@@ -49,17 +49,33 @@ li {
 }
 .Div-navigation li a {
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 650;
     margin-right: 20px;
 }
+.Div-navigation
+.dropdown-content
+ li 
+ a{
+    color: white;
+    font-size: 12px;
+    font-weight: 650;
+    margin-right: 20px;
+}
+.Div-navigation .dropdown-content li a:hover {
+    color: black;
+    background-color: rgb(175, 37, 37);
+    transition: 0.3s ease-in;
+    display: block;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 .Div-navigation li a:hover {
     color: black;
-    transition: 1.7s ease-in-out;
+    transition: 0.7s ease;
 }
 .dropdown-menu .dropdown-toggle{
     position: relative;
-    box-shadow: 0px 8px 16px 0px;
 }
   
   .dropdown-content {
@@ -68,7 +84,7 @@ li {
     font-size: 30px;
     background-color: red;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    min-width: 160px;
+    min-width: auto;
     z-index: 1;
   }
   
@@ -80,8 +96,10 @@ li {
     display: block;
   }
 
-  .dropdown-menu:hover .dropdown-content {
+  .dropdown-menu:hover 
+  .dropdown-content {
     display: block;
+    box-shadow: -10px -10px 15px rgba(25, 23, 23, 0.3), 10px 10px 15px rgba(70, 70, 70, 0.15), inset -10px -10px 15px rgba(52, 48, 48, 0.3), inset 10px 10px 15px rgba(70, 70, 70, 0.15) 
   }
 
   button {
@@ -154,7 +172,9 @@ font-size: 50px;
    
     margin-right: 20px;
 }
-.footer-parent li a:hover {
+.footer-parent 
+li 
+a:hover {
     text-decoration: underline;
 } 
 .footer-parent {
@@ -162,6 +182,11 @@ font-size: 50px;
     background-color: gray;
     color: white;
 }
+.suscribe {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
 .customer {
     display: flex;
     justify-content: center;
@@ -175,16 +200,43 @@ font-size: 50px;
     padding-bottom: 15px;
 }
 .copyright {
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     display: block;
+    border-top: 1px dotted;
     position: relative;
 }
 .copyright p{
     display: flex;
     justify-content: center;
+    color: white;
     align-items: center;
     font-size: 13px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 1px dotted;
+}
+.card-payment {
+    display: block;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: ;
+}
+.card-payment img{
+   display: flex;
+   flex-direction: row;
+   border-radius: 6px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 17px;
+   height: 30px;
+   width: 45px;
+}
+.card-payment img:first-child{
+    background-color: white;
+}
+.card-payment img:nth-child(6) {
+    background-color: white;
+}
+.card-payment img:nth-child(9) {
+    background-color: white;
 }
