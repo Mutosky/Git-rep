@@ -17,6 +17,8 @@ body {
     background: red;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     padding-right: 15px;
+    border-bottom: 1px dotted;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -45,15 +47,19 @@ li {
     list-style-type: none;
     display: inline-block;
 }
-li a {
+.Div-navigation li a {
     color: white;
     font-size: 18px;
     font-weight: 650;
     margin-right: 20px;
 }
+.Div-navigation li a:hover {
+    color: black;
+    transition: 1.7s ease-in-out;
+}
 .dropdown-menu .dropdown-toggle{
     position: relative;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px;
 }
   
   .dropdown-content {
@@ -120,6 +126,7 @@ button a {
 .video {
     padding-top: 10px;
     width: 100%;
+    padding-left: 30%;
     height: 100%;
 }
 .H1-Hoodie {
@@ -127,11 +134,57 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: flex-start;
+text-decoration: none;
 font-size: 50px;
 }
+.H1-Hoodie a{
+    text-decoration: none;
+    color: white;
+}
 .Mock-up p  {
- font-size: 20px;
- text-transform: capitalize;
+ font-size: 15px;
+ text-transform: uppercase;
  padding-top: 30px;
  font-family: sans-serif;
+}
+.footer-parent li a {
+    color: white;
+    font-size: 14px;
+    font-weight: 650;
+   
+    margin-right: 20px;
+}
+.footer-parent li a:hover {
+    text-decoration: underline;
+} 
+.footer-parent {
+    display: block;
+    background-color: gray;
+    color: white;
+}
+.customer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.column {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.copyright {
+    background-color: gray;
+    display: block;
+    position: relative;
+}
+.copyright p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px dotted;
 }
