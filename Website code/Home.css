@@ -24,6 +24,9 @@ body {
   padding-bottom: 10px;
   padding-left: 15px;
 }
+.grid-container .Mock-up p {
+  line-height: 1.8;
+}
 .Div-navigation {
   display: flex;
   align-items: center;
@@ -188,8 +191,8 @@ button a {
   animation: slideInRight 1s forwards;
 }
 .Mockup-video:not(.active) {
-    z-index: 0;
-  }
+  z-index: 0;
+}
 .H1-Hoodie {
   display: flex;
   flex-direction: row;
