@@ -5,8 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch",
+    "build": "tailwindcss -i ./css/input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./css/main.css --watch",
     "dev": "npx nodemon app.js"
   },
   "keywords": [],
@@ -14,7 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.4",
-    "tailwindcss": "^3.4.9"
+    "tailwindcss": "^3.4.10"
   },
   "dependencies": {
     "dirname": "^0.1.0",
