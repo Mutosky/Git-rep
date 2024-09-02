@@ -1,7 +1,6 @@
 * {
   text-decoration: none;
   padding: 0;
-  overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
 }
@@ -12,6 +11,9 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
+}
+.Navigation-bar .Div-navigation .logo a {
+  color: black;
 }
 .Navigation-bar {
   background: rgb(126, 251, 243);
@@ -47,8 +49,7 @@ body {
   font-weight: 650;
   color: white;
 }
-li {
-  list-style-type: none;
+.Navigation-bar .Div-navigation li {
   display: inline-block;
 }
 .Div-navigation li a {
@@ -221,6 +222,11 @@ button a {
 }
 .footer-parent li a:hover {
   text-decoration: underline;
+}
+.footer-parent
+.column 
+li {
+  overflow-x: hidden;
 }
 .footer-parent {
   display: block;

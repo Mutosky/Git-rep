@@ -1,14 +1,49 @@
 * {
     text-decoration: none;
     padding: 0;
-    overflow-x: hidden;
     box-sizing: border-box;
     margin: 0;
+}
+.terms-container {
+    color: white;
+    padding-bottom: 10%;
 }
 .terms-container h1{
    display: flex;
    justify-content: center;
    padding-top: 3%;
-   color: white;
-   padding-bottom: 10%;
+   font-size: 50px;
+   color: white;  
+}
+.terms-container .terms-box ul h3{
+    padding-left: 17%;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 40px;
+}
+.terms-container .terms-box ul li {
+    padding-left: 20%;
+    list-style-type: disc;
+    width: 70%;
+    color: rgb(177, 168, 168);
+    font-family: Helvetica;
+    overflow-wrap: break-word;
+    line-height: 1.9;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.terms-container 
+.terms-box 
+.under-container 
+.under-elements li {
+    list-style: disc;
+    padding-left: 3%;
+    margin-left: 0%;
+    width: 100%;
+}
+.terms-container .terms-box ol .num{
+  list-style: square;
 }
