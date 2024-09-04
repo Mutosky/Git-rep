@@ -1,0 +1,86 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+.privacy-policy {
+    color: white;
+    padding-bottom: 10%;
+}
+.privacy-policy h1 {
+   display: flex;
+   justify-content: center;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   font-size: 50px;
+   color: white;  
+}
+.privacy-policy 
+.privacy-content 
+h2:nth-child(1){
+    padding-left: 4%;
+    padding-bottom: 2%;
+    font-size: 35px;
+}
+.privacy-policy 
+.privacy-content 
+h3 {
+    padding-left: 12%;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 15px;
+}
+.privacy-policy 
+.privacy-content 
+h4 {
+    padding-left: 17%;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    padding-bottom: 15px;
+}
+.privacy-policy 
+.privacy-content 
+li{
+    padding-left: 20%;
+    list-style: none;
+    width: 70%;
+    color: rgb(177, 168, 168);
+    font-family: Helvetica;
+    overflow-wrap: break-word;
+    line-height: 1.9;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.privacy-policy 
+.privacy-content 
+.first-element{
+    list-style-type: none;
+}
+.dot {
+    font-size: 30px;
+}
+.privacy-policy .privacy-content .dot-parent ul li {
+     margin-bottom: 8px;
+     padding-left: 22%;
+}
+.privacy-policy 
+.privacy-content 
+.info 
+h2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    padding-right: 8%;
+}
+.info h2 a {
+    color: white;
+}
+.info h2:nth-child(1) {
+
+}
